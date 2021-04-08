@@ -1,10 +1,9 @@
 <template>
-  <div class="search">
-    搜索页面
-  </div>
+  <div class="search">搜索页面</div>
 </template>
 
 <script>
+import { getSingerList } from "@/service/singer";
 export default {
   name: "search",
 };
