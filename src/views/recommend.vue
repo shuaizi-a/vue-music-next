@@ -1,5 +1,5 @@
 <template>
-  <div>推荐页面</div>
+  <div class="recommend">推荐页面</div>
 </template>
 
 <script>
@@ -15,4 +15,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.recommend {
+  position: fixed;
+  width: 100%;
+  top: 88px;
+  bottom: 0;
+  overflow: scroll;
+}
 </style>
